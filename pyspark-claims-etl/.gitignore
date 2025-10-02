@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.sparkStaging/
+.derby/
+.metastore_db/
+data/output/
+logs/
+.pytest_cache/
+.vscode/
+data/output/dq_reports/
+data/output/logs/
