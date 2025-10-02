@@ -17,7 +17,6 @@ pytest -q
 # 4) Run the pipeline (seeds the provided CSVs if missing)
 python ./pyspark-claims-etl/src/claims_etl/main.py --input-dir './data/input/' --output-dir './data/output/' --mode 'overwrite' --fail-on-dq-error 'true' --log-dir './data/output/logs/'
 
-F:\Coding\Spark\Swiss re\pyspark-claims-etl\src\claims_etl\main.py' '--input-dir' './data/input' '--output-dir' './data/output' '--mode' 'overwrite' '--fail-on-dq-error' 'true' '--log-dir' './data/output/logs'
 ###################
   # PySpark Claims ETL (DQ + Logging)
 
